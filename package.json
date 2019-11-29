@@ -1,0 +1,28 @@
+{
+  "name": "slack-clone-server",
+  "version": "1.0.0",
+  "description": "Slack clone Server using Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francolavayendev/slack-clone-server.git"
+  },
+  "keywords": [],
+  "author": "Franco Lavayen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francolavayendev/slack-clone-server/issues"
+  },
+  "homepage": "https://github.com/francolavayendev/slack-clone-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.0.1",
+    "sequelize": "^5.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
